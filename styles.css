@@ -1,0 +1,126 @@
+/* styles.css (Shared CSS for modern look) */
+
+/* Modern color palette: Hot pink primary (#FF69B4), Black (#000), White (#FFF), Gold accent (#FFD700) */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #FF69B4;
+    color: #FFF;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+#hero {
+    background-color: #FF69B4;
+    color: #FFF;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#about, #featured, #shoes, #clothes, #contact {
+    padding: 40px 0;
+}
+
+h2 {
+    text-align: center;
+    color: #FF69B4;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    background-color: #FFF;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.product p {
+    color: #FF69B4;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-media {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    color: #FFD700;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #FFF;
+}
+
+footer p {
+    margin: 0;
+}
